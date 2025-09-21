@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiloma Aicha OUATTARA - Candidature SaH Analytics International</title>
+    <meta name="description" content="Candidature innovante de Tiloma Aicha OUATTARA pour le poste d'Assistante Marketing chez SaH Analytics International - Spécialiste IA et Marketing Digital">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+    <style>
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        
+        body { 
+            font-family: 'Segoe UI', 'SF Pro Display', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; 
+            line-height: 1.6; 
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+            overflow: hidden;
+            animation: slideUp 0.8s ease-out;
+        }
+        
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .header { 
+            background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="70" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="70" cy="80" r="1" fill="rgba(255,255,255,0.1)"/></svg>');
+            pointer-events: none;
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header h1 { 
+            font-size: 2.8em; 
+            margin-bottom: 15px;
+            font-weight: 300;
+            letter-spacing: -1px;
+        }
+        
+        .subtitle { 
+            font-size: 1.4em; 
+            opacity: 0.95;
+            margin-bottom: 15px;
+            font-weight: 400;
+        }
+        
+        .company-name {
+            font-size: 1.1em;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        .contact-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .contact-item { 
+            background: rgba(255,255,255,0.2); 
+            padding: 12px 20px; 
+            border-radius: 30px;
+            font-size: 0.95em;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+        
+        .content { 
+            padding: 50px 40px; 
+        }
+        
+        .innovation-badge {
+            display: inline-flex;
+            align-items: center;
+            background: linear-gradient(135deg, #00b894, #00cec9);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 30px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .highlight-box { 
+            background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            text-align: center;
+            border: 3px solid transparent;
+            background-clip: padding-box;
+        }
+        
+        .highlight-box h3 {
+            color: #d63031;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+        }
+        
+        .skills { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 12px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .skill { 
+            background: linear-gradient(135deg, #00b894, #00cec9); 
+            color: white; 
+            padding: 10px 18px; 
+            border-radius: 25px;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .skill:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,184,148,0.3);
+        }
+        
+        .section { 
+            margin: 30px 0;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+            transition: all 0.3s ease;
+        }
+        
+        .section:hover {
+            box-shadow: 0 5px 20px rgba(102,126,234,0.1);
+            transform: translateY(-2px);
+        }
+        
+        .section h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section p {
+            text-align: justify;
+            line-height: 1.7;
+        }
+        
+        .quote-section {
+            background: linear-gradient(135deg, #a8e6cf, #dcedc1);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            text-align: center;
+            font-style: italic;
+            font-size: 1.1em;
+            border-left: 5px solid #00b894;
+        }
+        
+        .cta { 
+            text-align: center; 
+            padding: 40px 30px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        
+        .cta h2 {
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .btn { 
+            display: inline-block; 
+            background: white; 
+            color: #667eea; 
+            padding: 15px 30px; 
+            text-decoration: none; 
+            border-radius: 30px;
+            font-weight: 600;
+            margin: 10px 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .btn:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            color: #5a67d8;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            font-style: italic;
+            color: #636e72;
+        }
+        
+        .github-badge {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #24292e;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            z-index: 1000;
+        }
+        
+        @media (max-width: 768px) {
+            .container { 
+                margin: 10px; 
+                border-radius: 15px;
+            }
+            .header { 
+                padding: 40px 25px; 
+            }
+            .content { 
+                padding: 30px 25px; 
+            }
+            .header h1 { 
+                font-size: 2.2em; 
+            }
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+            .btn {
+                display: block;
+                margin: 10px auto;
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="github-badge">
+        🚀 Hébergé sur GitHub Pages
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1>Tiloma Aicha OUATTARA</h1>
+                <div class="subtitle">Candidature Assistante Marketing</div>
+                <div class="company-name"><strong>SaH Analytics International</strong></div>
+                
+                <div class="contact-grid">
+                    <div class="contact-item">📧 tilomasanogo@gmail.com</div>
+                    <div class="contact-item">📱 +225 0787019280</div>
+                    <div class="contact-item">📞 +225 0565620348</div>
+                    <div class="contact-item">📍 Abidjan, Côte d'Ivoire</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="innovation-badge">
+                ✨ Candidature Innovation - Septembre 2025
+            </div>
+            
+            <div class="highlight-box">
+                <h3>🎯 Pourquoi cette candidature vous intéresse ?</h3>
+                <p><strong>Une candidate qui maîtrise l'IA pour le marketing + une vision stratégique digitale éprouvée</strong></p>
+                <div class="skills">
+                    <span class="skill">🤖 IA & Création de contenu</span>
+                    <span class="skill">📊 Stratégie digitale</span>
+                    <span class="skill">🎤 Conférencière IA</span>
+                    <span class="skill">📱 Réseaux sociaux</span>
+                    <span class="skill">🎥 Contenu vidéo/visuel</span>
+                    <span class="skill">🎯 Marketing data-driven</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>🚀 Mon Expérience Professionnelle</h3>
+                <p>Mon parcours combine une solide formation théorique avec une expérience professionnelle variée, en parfaite adéquation avec le profil recherché. Chez <strong>Marketiv Consulting</strong> et <strong>Gecitram Rabat</strong>, j'ai rédigé des stratégies de communication digitale et créé du contenu pour les réseaux sociaux. Ces missions m'ont permis de développer une vision stratégique et des compétences opérationnelles pour accroître la visibilité d'une marque en ligne.</p>
+            </div>
+
+            <div class="section">
+                <h3>🎤 Mon Impact & Expertise IA</h3>
+                <p>J'ai eu l'occasion de m'impliquer dans des initiatives culturelles et technologiques, notamment en <strong>intervenant lors d'une conférence sur l'intelligence artificielle et son impact sur la performance des organisations</strong>. Cette expérience m'a sensibilisée aux défis et aux opportunités de la technologie pour le développement.</p>
+            </div>
+
+            <div class="section">
+                <h3>📚 Ma Formation Continue</h3>
+                <p>Actuellement, dans le but d'enrichir mes compétences et de rester à la pointe des innovations, je suis une <strong>formation spécialisée en création de contenus vidéos et visuels avec l'intelligence artificielle</strong>. Cette compétence sera un atout pour le département Marketing, en apportant des méthodes de production de contenu modernes et efficaces.</p>
+            </div>
+
+            <div class="quote-section">
+                <p><strong>"Intégrer SaH Analytics International serait pour moi une opportunité unique de contribuer à des projets innovants et de continuer à évoluer dans un environnement stimulant et ambitieux."</strong></p>
+            </div>
+
+            <div class="section">
+                <h3>💡 Pourquoi SaH Analytics International ?</h3>
+                <p>Votre positionnement de pionnier dans l'intelligence artificielle et la cybersécurité a immédiatement retenu mon attention. Les projets à fort impact que vous menez résonnent avec mes propres aspirations. Cette convergence entre votre expertise technologique et ma passion pour l'innovation marketing représente le cadre idéal pour développer des stratégies de communication à la hauteur de vos ambitions.</p>
+            </div>
+
+            <div class="cta">
+                <h2>🤝 Rencontrons-nous !</h2>
+                <p>Je serais ravie de discuter de ma candidature et de ma vision pour le département Marketing de SaH Analytics International</p>
+                <a href="tel:+2250787019280" class="btn">📞 M'appeler</a>
+                <a href="mailto:tilomasanogo@gmail.com?subject=Candidature%20Assistante%20Marketing%20-%20SaH%20Analytics&body=Bonjour%20Tiloma,%0A%0AJ'ai%20consulté%20votre%20candidature%20via%20votre%20QR%20code%20innovant..." class="btn">📧 M'écrire</a>
+                <a href="https://linkedin.com/in/tiloma-ouattara" class="btn" target="_blank">💼 LinkedIn</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Je vous prie d'agréer, Madame, Monsieur, l'expression de ma considération distinguée.</p>
+            <br>
+            <p><strong>Tiloma Aicha OUATTARA</strong></p>
+            <p style="font-size: 0.9em; margin-top: 15px; color: #74b9ff;">
+                💡 Site créé avec passion • Hébergé sur GitHub Pages • QR Code généré avec qrencode
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Animation d'entrée progressive
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.section, .highlight-box, .quote-section, .cta');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            sections.forEach((section, index) => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = `all 0.6s ease ${index * 0.1}s`;
+                observer.observe(section);
+            });
+        });
+
+        // Easter egg pour les recruteurs tech
+        console.log(`
+        🚀 Salut les recruteurs tech de SaH Analytics !
+        
+        Vous inspectez le code ? Parfait ! 
+        Cela montre que Tiloma sait créer des expériences 
+        qui captivent même les développeurs ! 
+        
+        Compétences démontrées ici :
+        - HTML5 sémantique
+        - CSS3 moderne (Grid, Flexbox, Animations)
+        - JavaScript ES6+
+        - Design responsive
+        - UX/UI réfléchie
+        - Optimisation performance
+        
+        Contact : tilomasanogo@gmail.com
+        Tel : +225 0787019280
+        
+        #InnovationMarketing #TechSavvy #SaHAnalytics
+        `);
+    </script>
+</body>
+</html>
